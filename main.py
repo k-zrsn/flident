@@ -1,8 +1,11 @@
 ### Flident
 
 ### future plans
+# os make alert(for new planes detected, for certain aircraft)
 # clickable flight number links to flightradar24
-# os make alert
+# flight sorting/filters
+# UI/dashboard-like UI with clickable sorting/filters
+# monitor more than one location(simultaneously?)
 
 
 from FlightRadar24.api import FlightRadar24API
