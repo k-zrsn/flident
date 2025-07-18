@@ -94,3 +94,25 @@ class FlightIdent:
         return self._data
 
 
+while True:
+    if __name__ == "__main__":
+        fi = FlightIdent()
+        fi.get_data()
+
+        os.system('cls')
+        print("----- FlightIdent -----")
+        if not fi.data:
+            print("\nNo aircraft found.\nRescan in 10 seconds.")
+            sleep(10)
+        else:
+            print("\nCurrently flying overhead:\n")
+            for i, flight in fi.data.items():
+                print(
+                    f"Flight {i}:\n"
+                    f"  Aircraft: {flight['aircraft']}\n"
+                    f"  From: {flight['origin']} -> To: {flight['destination']}\n"
+                    f"  FL: {flight['altitude']} ft\n"
+                    f"  GS: {flight['speed']} kts\n"
+                    f"  HDG: {flight['hdg']}\n"
+                )
+            sleep(2)
