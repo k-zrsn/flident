@@ -14,7 +14,7 @@ import os
 blank = ["N/A", "", "NONE"]
 max_flights = 10
 min_alt = 100 #ft
-max_alt = 20000 #ft
+max_alt = 11000 #ft
 location = [
     33.536212, #latitude
     -76.960029, #longitude
