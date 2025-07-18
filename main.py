@@ -100,7 +100,7 @@ while True:
         fi.get_data()
 
         os.system('cls')
-        print("----- FlightIdent -----")
+        print("----- Flident -----")
         if not fi.data:
             print("\nNo aircraft found.\nRescan in 10 seconds.")
             sleep(10)
