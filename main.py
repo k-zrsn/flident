@@ -1,4 +1,9 @@
-### FlightIdent
+### Flident
+
+### future plans
+# clickable flight number links to flightradar24
+# os make alert
+
 
 from FlightRadar24.api import FlightRadar24API
 from time import sleep
